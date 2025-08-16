@@ -1,30 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Advanced PyQt Tera Term–like serial terminal
-Features included:
-- COM/TTY selection (editable so you can paste /dev/pts/*)
-- Baud selection
-- Connect / Disconnect using a background QThread
-- Large terminal view (QPlainTextEdit)
-- Input line + Send + Ctrl+C shortcut button (sends 0x03)
-- Line ending selection
-- Save Log (print entire terminal to file)
-- Copy Last Result (captures output after last sent command)
-- Profiles & Sections system persisted as one JSON file per profile in ./profiles
-- Right-side: Profile dropdown, Section dropdown, Search (global within current profile)
-- Scrollable command buttons (QScrollArea)
-- Advanced Profile Editor dialog with:
-    - Profiles list (add/rename/delete)
-    - Sections list (add/rename/delete, drag to reorder)
-    - Commands list (drag reorder, inline edit via double-click or Edit button)
-    - Save writes one JSON per profile
-
-Dependencies:
-    pip install PyQt5 pyserial
-
-Save this file as `teraterm_like_advanced.py` and run it.
-"""
+# Jermz wuz hir
 
 import os
 import sys
